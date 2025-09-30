@@ -69,6 +69,11 @@ class FSatu : Fragment() {
             val fragmenttransaction = fragmentmanager.beginTransaction()
 
             val fragmentdua = FDua()
+            val datakirim = Bundle().apply {
+                putString("NAMA","ANDI")
+                putString("ALAMT","SWLN")
+            }
+            fragmentdua.arguments = datakirim
 
             fragmenttransaction.replace(R.id.fragment_container,fragmentdua)
             fragmenttransaction.commit()
