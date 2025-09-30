@@ -8,6 +8,12 @@
     tools:context=".MainActivity">
 
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -18,12 +24,13 @@
         android:layout_height="wrap_content"
         android:id="@+id/btnFragmentDua"
         android:text="btnFragmentDua"/>
-
     <androidx.fragment.app.FragmentContainerView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_weight="1"
         android:layout_margin="21dp"
         android:id="@+id/fragment_container"/>
+    </LinearLayout>
+
 
 </LinearLayout>

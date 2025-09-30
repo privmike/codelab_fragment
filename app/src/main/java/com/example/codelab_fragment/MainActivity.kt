@@ -27,6 +27,10 @@ class MainActivity : AppCompatActivity() {
             replaceFragment(FSatu())
         }
 
+        btnFragmentDua.setOnClickListener {
+            replaceFragment(FDua())
+        }
+
     }
 
 
