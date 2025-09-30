@@ -19,8 +19,8 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-    val btnFragmentSatu = findViewById<Button>(R.id.btnFragmentSatu)
-    val btnFragmentDua = findViewById<Button>(R.id.btnFragmentDua)
+        val btnFragmentSatu = findViewById<Button>(R.id.btnFragmentSatu)
+        val btnFragmentDua = findViewById<Button>(R.id.btnFragmentDua)
 
 
         if (savedInstanceState==null){
